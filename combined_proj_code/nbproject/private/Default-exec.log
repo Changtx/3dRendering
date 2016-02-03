@@ -1,0 +1,77 @@
+called: g++
+	/home/aqadeer/work/courses/cs580_spring2015/project_code/code/combined_proj_code
+	g++
+	-Wall
+	-g
+	-MMD
+	-c
+	-o
+	obj/Stack.o
+	Stack.cpp
+
+called: g++
+	/home/aqadeer/work/courses/cs580_spring2015/project_code/code/combined_proj_code
+	g++
+	-Wall
+	-g
+	-MMD
+	-c
+	-o
+	obj/disp.o
+	disp.cpp
+
+called: g++
+	/home/aqadeer/work/courses/cs580_spring2015/project_code/code/combined_proj_code
+	g++
+	-Wall
+	-g
+	-MMD
+	-c
+	-o
+	obj/rend.o
+	rend.cpp
+
+called: g++
+	/home/aqadeer/work/courses/cs580_spring2015/project_code/code/combined_proj_code
+	g++
+	-Wall
+	-g
+	-MMD
+	-c
+	-o
+	obj/Helper.o
+	Helper.cpp
+
+called: g++
+	/home/aqadeer/work/courses/cs580_spring2015/project_code/code/combined_proj_code
+	g++
+	-Wall
+	-g
+	-MMD
+	-c
+	-o
+	obj/Transformations.o
+	Transformations.cpp
+
+called: g++
+	/home/aqadeer/work/courses/cs580_spring2015/project_code/code/combined_proj_code
+	g++
+	-Wall
+	-g
+	-MMD
+	-c
+	-o
+	obj/Matrix.o
+	Matrix.cpp
+
+called: g++
+	/home/aqadeer/work/courses/cs580_spring2015/project_code/code/combined_proj_code
+	g++
+	-Wall
+	-g
+	-MMD
+	-c
+	-o
+	obj/main.o
+	main.cpp
+

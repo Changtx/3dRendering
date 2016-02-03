@@ -1,0 +1,22 @@
+mkdir -p obj
+g++ -Wall -g -MMD -c -o obj/Stack.o Stack.cpp
+g++ -Wall -g -MMD -c -o obj/disp.o disp.cpp
+g++ -Wall -g -MMD -c -o obj/rend.o rend.cpp
+g++ -Wall -g -MMD -c -o obj/Helper.o Helper.cpp
+Helper.cpp: In function ‘float makePerlinNoise(float, float)’:
+Helper.cpp:301:15: warning: unused variable ‘div’ [-Wunused-variable]
+         float div = rand() % 512 + 1;
+               ^
+Helper.cpp: At global scope:
+Helper.cpp:229:21: warning: ‘abc’ defined but not used [-Wunused-variable]
+ static unsigned int abc = 0;
+                     ^
+g++ -Wall -g -MMD -c -o obj/Transformations.o Transformations.cpp
+g++ -Wall -g -MMD -c -o obj/Matrix.o Matrix.cpp
+g++ -Wall -g -MMD -c -o obj/main.o main.cpp
+main.cpp:6:26: fatal error: Application6.h: No such file or directory
+ #include "Application6.h"
+                          ^
+compilation terminated.
+Makefile:15: recipe for target 'obj/main.o' failed
+gmake: *** [obj/main.o] Error 1

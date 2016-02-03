@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <in>Application7.cpp</in>
+      <in>Helper.cpp</in>
+      <in>Matrix.cpp</in>
+      <in>Stack.cpp</in>
+      <in>Transformations.cpp</in>
+      <in>disp.cpp</in>
+      <in>km.cpp</in>
+      <in>main.cpp</in>
+      <in>rend.cpp</in>
+      <in>tex_fun.cpp</in>
+      <in>vectormath.cpp</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>CS580HW</executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="Application7.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Helper.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Matrix.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="Stack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Transformations.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="disp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="km.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="rend.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tex_fun.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="vectormath.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
